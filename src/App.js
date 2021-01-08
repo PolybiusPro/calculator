@@ -176,7 +176,7 @@ function App() {
   }
 
   return (
-    <div className={darkMode ? classes.darkMode : "" }>
+    <div className={`App ${darkMode ? classes.darkMode : ""} `}>
       <Header darkMode={handleDarkModeClick} />
       <Typography className={`display ${darkMode ? classes.darkDisplay : "" }`} align="right" variant="h3">
         {value}
